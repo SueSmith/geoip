@@ -1,6 +1,6 @@
 /// <reference types="@fastly/js-compute" />
 
-
+/*
 function handler(event) {
   let clientGeo = event.client.geo
 
@@ -22,7 +22,7 @@ function handler(event) {
       "Content-Type": "application/json",
     },
   })
-}
+}*/
 
 // eslint-disable-next-line no-restricted-globals
-addEventListener("fetch", (event) => event.respondWith(handler(event)))
+addEventListener("fetch", (event) => event.respondWith(event))
