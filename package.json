@@ -1,1 +1,26 @@
-{"author":"oss@fastly.com","bugs":{"url":"https://github.com/fastly/compute-starter-kit-javascript-empty/issues"},"dependencies":{"@fastly/js-compute":"^0.2.0"},"engines":{"node":">=18.0.0"},"homepage":"https://developer.fastly.com/solutions/starters/compute-starter-kit-javascript-empty","license":"MIT","main":"src/index.js","name":"fiddle-b485866f","repository":{"type":"git","url":"git+https://github.com/fastly/compute-starter-kit-javascript-empty.git"},"type":"module","version":"0.4.0"}
+{
+  "author": "oss@fastly.com",
+  "bugs": {
+    "url": "https://github.com/fastly/compute-starter-kit-javascript-empty/issues"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fastly/js-compute": "^0.2.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://developer.fastly.com/solutions/starters/compute-starter-kit-javascript-empty",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "fiddle-b485866f",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastly/compute-starter-kit-javascript-empty.git"
+  },
+  "type": "module",
+  "version": "0.4.0"
+}
